@@ -23,6 +23,7 @@ const authRouter = Router();
 
 authRouter.post(Paths.Auth.Register, AuthRoutes.register);
 authRouter.post(Paths.Auth.Login, AuthRoutes.login);
+authRouter.post(Paths.Auth.Logout, AuthRoutes.logout);
 
 // post auth routes
 const postRouter = Router();
